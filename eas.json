@@ -5,13 +5,21 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "node": "22.0.0"
     },
     "preview": {
+      "distribution": "internal",
+      "node": "22.0.0",
       "android": {
         "buildType": "apk"
       }
     },
-    "production": {}
+    "production": {
+      "node": "22.0.0",
+      "android": {
+        "buildType": "apk"
+      }
+    }
   }
 }
