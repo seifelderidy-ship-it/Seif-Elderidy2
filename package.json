@@ -1,23 +1,26 @@
 {
-  "name": "lokhaslyshokran",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~51.0.0",
-    "react": "18.2.0",
-    "react-native": "0.74.5",
-    "react-native-paper": "4.9.2",
-    "@expo/vector-icons": "^15.0.2",
-    "@supabase/supabase-js": "2.39.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+"name": "lokhaslyshokran",
+"version": "1.0.0",
+"private": true,
+"main": "node_modules/expo/AppEntry.js",
+"engines": {
+"node": ">=22.0.0"
+},
+"scripts": {
+"start": "expo start",
+"android": "expo start --android",
+"ios": "expo start --ios",
+"web": "expo start --web"
+},
+"dependencies": {
+"expo": "~51.0.0",
+"react": "18.2.0",
+"react-native": "0.74.5",
+"react-native-paper": "4.9.2",
+"@expo/vector-icons": "^15.0.2",
+"@supabase/supabase-js": "2.39.0"
+},
+"devDependencies": {
+"@babel/core": "^7.20.0"
+}
 }
