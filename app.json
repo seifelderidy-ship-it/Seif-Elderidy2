@@ -1,11 +1,9 @@
 {
   "expo": {
-    "name": "لخص لي شكراً",
-    "slug": "lokhas-ly-shokran",
-    "owner": "seifo4546464s-team",
+    "name": "my-app",
+    "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,19 +14,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.seifmo.lokhaslyshokran",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "b806b2ee-4665-4f44-a2bf-c9a93e569181"
-      }
+      "package": "com.anonymous.myapp"
     }
   }
 }
